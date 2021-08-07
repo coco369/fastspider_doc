@@ -28,7 +28,7 @@ pip3 install fastspider
 创建爬虫
 
 ```shell
-fastspider startspider -s demo_spider light/nomal/cycle
+fastspider startspider -s hello_spider light/nomal/cycle
 ```
 
 创建后的爬虫代码如下：
@@ -39,7 +39,7 @@ fastspider startspider -s demo_spider light/nomal/cycle
 import fastspider
 
 
-class DemoSpider(fastspider.LightSpider):
+class HelloSpider(fastspider.LightSpider):
 
     start_urls = ["http://www.baidu.com"]
 
@@ -52,7 +52,7 @@ class DemoSpider(fastspider.LightSpider):
 
 
 if __name__ == "__main__":
-    {{DemoSpider}}().start()
+    HelloSpider().start()
 
 ```
 
