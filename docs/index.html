@@ -4,24 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>feapder-document</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="feapder是一款支持分布式、批次采集、任务防丢、报警丰富的python爬虫框架">
-    <meta name="keywords"
-        content="feapder,scrapy,feapder文档,scrapy文档,feapder document,scrapy document,feapder 教程,scrapy 教程,爬虫,爬虫框架,Boris,批次爬虫,分布式爬虫">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="fastspider -- python爬虫框架">
+    <meta name="keywords" content="fastspider文档">
     <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="baidu-site-verification" content="code-5vXrzaZgX6" />
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="baidu-site-verification" content="code-5vXrzaZgX6"/>
     <link rel="stylesheet" href="./lib/docsify/lib/themes/vue.css">
 
-    <!-- 谷歌统计 -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KS7S55K3YN"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'G-KS7S55K3YN');
+
+
     </script>
 
     <!-- 百度统计 -->
@@ -33,20 +31,22 @@
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
+
+
     </script>
 
 
 </head>
 
 <body>
-    <div id="app"></div>
-    <!-- docsify-edit-on-github -->
-    <script src="./lib/docsify/lib/plugins/docsify-edit-on-github.js"></script>
+<div id="app"></div>
+<!-- docsify-edit-on-github -->
+<script src="./lib/docsify/lib/plugins/docsify-edit-on-github.js"></script>
 
-    <script>
+<script>
         window.$docsify = {
             name: 'feapder-document',
-            repo: 'https://github.com/Boris-code/feapder',
+            repo: 'https://github.com/coco369/feapder',
             loadNavbar: true,
             loadSidebar: true,
             coverpage: true,
@@ -89,38 +89,42 @@
                     });
                 },
                 // docsify-edit-on-github
-                EditOnGithubPlugin.create("https://github.com/Boris-code/feapder/tree/master/docs/",
+                EditOnGithubPlugin.create("https://github.com/coco369/feapder/tree/master/docs/",
                     null,
                     '修正此页'
                 )
             ]
         }
-    </script>
 
-    <!--gitter 聊天室  -->
-    <script>
+
+</script>
+
+<!--gitter 聊天室  -->
+<script>
             ((window.gitter = {}).chat = {}).options = {
             //需要在gitter上创建rootm
             room: 'feapder/community',
             preload: true,
             activation: true
         };
-    </script>
-    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
 
-    <!-- 评论 -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-    <script>
+
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+<!-- 评论 -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script>
         var path = location.href.match(/(?<=#)[^?]*/g)
         path = path ? path[0] : "/"
         const gitalk = new Gitalk({
             clientID: '9bbc1bce85637dc3fd74',
             clientSecret: 'fff857ba856732b11b0e38e18103ff3444c667d6',
             repo: 'feapder',
-            owner: 'Boris-code',
-            admin: 'Boris-code',
+            owner: 'coco369',
+            admin: 'coco369',
             proxy: 'https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token',
             id: decodeURI(path), // 取地址#xxx? 中的xxx， 防止默认的评论id超过50字
             // facebook-like distraction free mode
@@ -139,21 +143,23 @@
         }
         // 由于docsify/lib/plugins/gitalk.min.js文件中已经有下面代码了，所以不需要在写一次了
         // gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
-    </script>
 
-    <!-- 其他插件 -->
-    <script src="./lib/docsify/lib/docsify.min.js"></script>
-    <script src="./lib/docsify/lib/plugins/ga.js"></script>
-    <script src="./lib/docsify/lib/plugins/search.js"></script>
-    <script src="./lib/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-    <script src="./lib/prismjs/components/prism-bash.js"></script>
-    <script src="./lib/prismjs/components/prism-java.js"></script>
-    <script src="./lib/prismjs/components/prism-sql.js"></script>
-    <script src="./lib/prismjs/components/prism-yaml.js"></script>
-    <script src="./lib/prismjs/components/prism-python.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-    <!-- 分页导航 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+</script>
+
+<!-- 其他插件 -->
+<script src="./lib/docsify/lib/docsify.min.js"></script>
+<script src="./lib/docsify/lib/plugins/ga.js"></script>
+<script src="./lib/docsify/lib/plugins/search.js"></script>
+<script src="./lib/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+<script src="./lib/prismjs/components/prism-bash.js"></script>
+<script src="./lib/prismjs/components/prism-java.js"></script>
+<script src="./lib/prismjs/components/prism-sql.js"></script>
+<script src="./lib/prismjs/components/prism-yaml.js"></script>
+<script src="./lib/prismjs/components/prism-python.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+<!-- 分页导航 -->
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
 </body>
 
