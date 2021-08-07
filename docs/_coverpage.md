@@ -1,15 +1,12 @@
-![feapder](http://markdown-media.oss-cn-beijing.aliyuncs.com/2021/02/08/feapder.png)
-
-#  feapder 爬虫框架文档
-
-> [ˈfiːpdə]
-
-feapder 命名源于 fast-easy-air-pro-spider 缩写
-
-秉承着开发快速、抓取快速、简单、轻量且功能强大的原则，倾心打造。
-
-支持轻量级爬虫、分布式爬虫、批次爬虫、爬虫集成，以及完善的报警等。
+#  fastspider 爬虫框架文档
 
 
-[GitHub](https://github.com/Boris-code/feapder)
+fastspider 轻便-快速-高效的爬虫框架
+
+开箱即用的一个高性能爬虫框架
+
+支持轻量级爬虫、分布式爬虫、周期循环式爬虫、爬虫集成，以及报警监控等。
+
+
+[GitHub](https://github.com/coco369/fastspider)
 [Get Started](README.md)
