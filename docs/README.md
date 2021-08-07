@@ -47,7 +47,7 @@ class HelloSpider(fastspider.LightSpider):
         for url in self.start_urls:
             yield fastspider.Request(url)
 
-    def parse(self, request, response):
+    def parser(self, request, response):
         print(response)
 
 
@@ -66,4 +66,4 @@ if __name__ == "__main__":
 代码解释如下：
 
 1. start_requests： 生产任务
-2. parse： 解析数据
+2. parser： 解析器, 用于解析响应response
