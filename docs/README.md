@@ -48,7 +48,7 @@ class HelloSpider(fastspider.LightSpider):
             yield fastspider.Request(url)
 
     def parse(self, request, response):
-        print(response.text)
+        print(response)
 
 
 if __name__ == "__main__":
