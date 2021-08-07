@@ -1,6 +1,7 @@
 * 序章
   * [简介及安装](README.md)
   * [10分钟快速上手](getready/10分钟上手.md)
+  * [架构设计](getready/架构设计.md)
 
 [comment]: <> (  * [架构设计]&#40;getready/架构设计.md&#41;)
 
