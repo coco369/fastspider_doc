@@ -1,7 +1,8 @@
 * 序章
   * [简介及安装](README.md)
   * [10分钟快速上手](getready/10分钟上手.md)
-  * [功能概览]()
+  * [架构设计](getready/架构设计.md)
+  * [功能概述](getready/功能概述.md)
 
 * 常用工具
   * [命令行工具](command/cmdline.md)
