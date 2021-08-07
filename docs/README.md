@@ -8,7 +8,7 @@
 
 ## 在线文档
 
-- 国内文档：https://coco369.github.io/fastspider_doc
+- 文档：https://coco369.github.io/fastspider_doc
 
 ## 环境要求
 
