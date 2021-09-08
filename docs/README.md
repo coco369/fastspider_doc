@@ -28,7 +28,7 @@ pip3 install fastspider
 创建爬虫
 
 ```shell
-fastspider startspider -s hello_spider light/nomal/cycle
+fastspider startspider -s hello_spider 1/2
 ```
 
 创建后的爬虫代码如下：
