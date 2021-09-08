@@ -44,19 +44,18 @@
 
 #### 2. 创建爬虫
 
-爬虫分为3种，分别为 轻量级爬虫（LightSpider）、分布式爬虫（NomalSpider）以及 周期性爬虫（CycleSpider）
+爬虫分为3种，分别为 轻量级爬虫（LightSpider）、分布式爬虫（Spider）
 
 命令
 
     fastspider startspider -s <spider_name> <spider_type>
 
-* LightSpider 对应的 spider_type 值为 light
-* NomalSpider 对应的 spider_type 值为 nomal
-* CycleSpider 对应的 spider_type 值为 cycle
+* LightSpider 对应的 spider_type 值为 1
+* Spider 对应的 spider_type 值为 2
 
 LightSpider 爬虫示例：
 
-    fastspider startspider -s hello_spider light
+    fastspider startspider -s hello_spider 1
 
 
 生成 hello_spider.py, 内容如下：
